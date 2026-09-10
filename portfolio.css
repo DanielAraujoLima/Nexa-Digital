@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 70px;
+    background-color: #f1f5fb;
+    padding-bottom: 30px;
+}
+.ponto-fundo{
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.f-f1{
+margin-left: 30px;
+}
+
+.first-template-v2{
+    background:
+        url("./IMAGENS/FUNDO PONTILHADO.png") center / cover no-repeat,
+        radial-gradient(
+            circle at 65% 50%,
+            #00152d 5%,
+            #001327 65%,
+            #011225 100%
+        );
+            display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.left-part-1-v3{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    margin-left:120px;
+    padding-bottom: 30px;
+}
+
+.sobre-img{
+    margin-right: 100px;
+    margin-bottom: -35px;
+}
+
+.categorias {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoria {
+    padding: 10px 22px;
+    background: #ffffff;
+    border: 1px solid #0d6efd;
+    border-radius: 8px;
+    margin-left: 20px;
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+
+    transition: 
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+/* Hover e Ativo */
+.categoria:hover,
+.categoria.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.projetos{
+display: flex;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+.projeto{
+        background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    width: 20%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+padding-bottom: 20px;
+text-align: left;
+margin-left: 52px;
+text-decoration: none;
+position: relative;
+}
+
+.projeto:visited {
+    color: black;
+}
+
+.projeto img{
+    border-radius: 9px;
+}
+
+.img-port{
+    width: 100%;
+    object-fit: cover;
+}
+
+.p-port{
+    width: 100%;
+    font-size:15px;
+    text-align: left;
+    margin-left: 20px;
+    color: #4b5563;
+}
+
+.h3-port{
+margin-top: 15px;
+margin-bottom:5px;
+font-size:20px;
+margin-left: 20px;
+color: black;
+}
+
+.projeto.escondido{
+    display: none;
+}
+
+
+.portfolio-external-icon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #0d6efd;
+        background-color:rgba(25, 74, 142, 0.104);
+    border-radius:20%;
+    height: 35px;
+    width: 35px;
+        align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.fa-arrow-up-right-from-square{
+font-size: 17px;
+}
+
+/* =====================================================
+   RESPONSIVIDADE - TABLET
+   ===================================================== */
+
+@media (max-width: 1024px) {
+
+    /* SEÇÃO PRINCIPAL */
+    section {
+        margin-top: 70px;
+        overflow: hidden;
+    }
+
+    /* HERO */
+    .first-template-v2 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 30px 30px;
+    }
+
+    .left-part-1-v3 {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+    .f-f1 {
+        margin-left: 0;
+    }
+
+    .first-h1 {
+        text-align: center;
+    }
+
+    .first-p {
+        text-align: center;
+    }
+
+    /* IMAGEM */
+    .sobre-img {
+        margin-right: 0;
+        margin-bottom: 0;
+        max-width: 70%;
+        height: auto;
+    }
+
+    /* CATEGORIAS */
+    .categorias {
+        gap: 20px;
+    }
+
+    .categoria {
+        margin-left: 0;
+        padding: 10px 8px;
+    }
+
+
+
+
+    /* =================================================
+       PROJETOS
+       ================================================= */
+
+    .projetos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 50px;
+    }
+
+    .projeto {
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .img-port {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* =================================================
+       BLOCO AZUL
+       ================================================= */
+
+    .rocket-space {
+        width: calc(100% - 80px);
+        box-sizing: border-box;
+
+        margin: 30px auto;
+
+        padding: 25px;
+
+        gap: 20px;
+    }
+
+    .icone-4 {
+        margin-left: 0;
+    }
+
+    .Third-B {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+
+/* =====================================================
+   RESPONSIVIDADE - CELULAR
+   ================================================= */
+
+@media (max-width: 600px) {
+
+    section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    /* =================================================
+       HERO
+       ================================================= */
+
+    .first-template-v2 {
+        display: flex;
+        flex-direction: column;
+
+        padding: 40px 20px 25px;
+
+        text-align: center;
+    }
+
+    .left-part-1-v3 {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 15px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f-f1 {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .first-h1 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .first-p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    /* Remove os <br> que podem deixar o texto muito apertado */
+    .first-p br {
+        display: none;
+    }
+
+    /* IMAGEM DO HERO */
+    .sobre-img {
+        margin-right: 0;
+        margin-bottom: 0;
+
+        width: 80%;
+        max-width: 350px;
+        height: auto;
+    }
+
+
+    /* =================================================
+       CATEGORIAS
+       ================================================= */
+
+    .categorias {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 10px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .categoria {
+        display: block !important;
+        width: 90% !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+        padding: 10px 8px !important;
+    }
+
+    /* 5ª categoria ocupa apenas uma coluna */
+    .categoria:nth-child(5) {
+        grid-column: 1 / -1 !important;
+        width: 50% !important;
+        justify-self: center !important;
+    }
+
+    /* =================================================
+       PROJETOS
+       ================================================= */
+
+    .projetos {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .projeto {
+        width: 100%;
+        margin-left: 0;
+
+        box-sizing: border-box;
+    }
+
+    .img-port {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .h3-port {
+        font-size: 19px;
+        margin-left: 15px;
+    }
+
+    .p-port {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .portfolio-external-icon {
+        right: 15px;
+        bottom: 15px;
+    }
+
+
+    /* =================================================
+       BLOCO AZUL / CTA
+       ================================================= */
+
+    .rocket-space {
+        width: calc(100% - 40px);
+
+        margin: 25px auto;
+
+        padding: 25px 20px;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 15px;
+
+        box-sizing: border-box;
+    }
+
+    .icone-4 {
+        margin-left: 0;
+
+        width: auto;
+        height: auto;
+
+        justify-content: center;
+    }
+
+    .icone-4 i {
+        font-size: 40px;
+    }
+
+    .h3-3-mid {
+        font-size: 19px;
+        line-height: 1.3;
+    }
+
+    .rocket-fire {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Third-B {
+        margin: 10px 0 0 0;
+
+        padding: 13px 35px;
+
+        font-size: 14px;
+    }
+}
+
+
+/* =====================================================
+   CELULARES MUITO PEQUENOS
+   ===================================================== */
+
+@media (max-width: 400px) {
+
+    .first-template-v2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .first-h1 {
+        font-size: 25px;
+    }
+
+    .first-p {
+        font-size: 14px;
+    }
+
+    .categorias {
+        gap: 8px;
+    }
+
+    .categoria {
+        font-size: 13px;
+        padding: 9px 5px;
+    }
+
+    .categoria:last-child {
+        width: 55%;
+    }
+
+    .projetos {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .rocket-space {
+        width: calc(100% - 30px);
+    }
+}

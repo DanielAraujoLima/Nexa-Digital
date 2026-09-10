@@ -1,0 +1,97 @@
+//CABEÇALHO DA PAGINA
+fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("header").innerHTML = data;
+    });
+
+    fetch("formulario.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("formulario").innerHTML = data;
+    });
+
+    //FORMULARIO DOS BOTOES
+function openform() {
+    const formulario = document.querySelector(".formulario");
+
+    formulario.classList.add("aberto");
+}
+
+//VIDEO DA PAGINA PRINCIPAL
+function abrirVideo() {
+    document.getElementById("youtubeVideo").src =
+        "https://www.youtube.com/embed/DmHj1lHWNIw?autoplay=1";
+
+    document.getElementById("videoModal").style.display = "flex";
+}
+
+function fecharVideo() {
+    document.getElementById("videoModal").style.display = "none";
+    document.getElementById("youtubeVideo").src = "";
+}
+
+
+//CATEGORIAS DA PAGINA
+document.addEventListener("DOMContentLoaded", () => {
+
+    const categorias = document.querySelectorAll(".categoria");
+    const projetos = document.querySelectorAll(".projeto");
+
+    categorias.forEach(categoria => {
+
+        categoria.addEventListener("click", () => {
+
+            categorias.forEach(c => {
+                c.classList.remove("active");
+            });
+
+            categoria.classList.add("active");
+
+            const categoriaSelecionada = categoria.dataset.categoria;
+
+            projetos.forEach(projeto => {
+
+                const categoriasProjeto = projeto.dataset.categoria.split(" ");
+
+                if (
+                    categoriaSelecionada === "todos" ||
+                    categoriasProjeto.includes(categoriaSelecionada)
+                ) {
+                    projeto.classList.remove("escondido");
+                } else {
+                    projeto.classList.add("escondido");
+                }
+
+            });
+
+        });
+
+    });
+
+});
+
+//RODAPÉ DA PAGINA
+fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("footer").innerHTML = data;
+    });
+
+
+    //MANTER O MENU PRESSIONADO ATIVO
+// Pega o caminho da página atual (ex: /sobre.html)
+const caminhoAtual = window.location.pathname;
+
+// Seleciona todos os links do menu
+const links = document.querySelectorAll('.menu');
+
+links.forEach(link => {
+  // Pega o atributo href do link
+  const hrefLink = link.getAttribute('href');
+  
+  // Se o final da URL combina com o href do link, adiciona a classe active
+  if (caminhoAtual.endsWith(hrefLink)) {
+    link.classList.add('active');
+  }
+});

@@ -1,0 +1,1325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    margin-top: 70px;
+    background-color: #f1f5fb;
+    padding-bottom: 30px;
+}
+
+.first-template-v2{
+    background:
+        url("./IMAGENS/FUNDO PONTILHADO.png") center / cover no-repeat,
+        radial-gradient(
+            circle at 65% 50%,
+            #00152d 5%,
+            #001327 65%,
+            #011225 100%
+        );
+            display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.worker-img {
+    width: 320px;
+    position: relative;
+    right: 350px;
+}
+
+.depoimento-v11 {
+    background: #ffffff;
+    border-radius: 12px;
+
+    width: 290px;
+    height: 300px;
+
+    padding: 30px;
+    box-sizing: border-box;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    right: 100px;
+    top: 32%;
+    transform: translateY(-50%);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.img-blocos{
+    display: flex;
+    align-items: center;
+}
+.img-blocos img{
+    width: 70px;
+}
+
+.f-h2{
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+.carousel-container-v10 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+/* ÁREA VISÍVEL DO CARROSSEL */
+
+.carousel-v10 {
+    width: 85%;
+    overflow: hidden;
+}
+
+
+/* ÁREA QUE DESLIZA */
+
+.depoimentos-v10 {
+    display: flex;
+
+    gap: 25px;
+
+    transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+
+    will-change: transform;
+    margin-bottom: 20px;
+}
+
+
+/* CARDS */
+
+.depoimento-v10 {
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+
+    min-width: calc((100% - 50px) / 3);
+
+    height: 300px;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    text-align: left;
+
+    display: flex;
+
+    flex-direction: column;
+    position: relative;
+}
+
+
+/* ASPAS */
+
+.aspas-v10 {
+    font-size: 60px;
+
+    line-height: 30px;
+
+    color: #4d82d6;
+
+    font-weight: bold;
+
+    margin-top: -10px;
+
+    margin-bottom: 15px;
+}
+
+
+/* TEXTO */
+
+.texto-depoimento-v10 {
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+}
+
+
+/* ESTRELAS */
+
+.estrelas-v10 {
+
+    position: absolute;
+
+    bottom: 90px;
+
+    left: 30px;
+
+    color: #f5b400;
+
+    font-size: 18px;
+}
+
+
+/* CLIENTE */
+
+.cliente-v10 {
+    display: flex;
+    align-items: center;
+    margin-top: auto !important;
+}
+
+/* FOTO */
+
+.perfil-v10 {
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+
+/* INFORMAÇÕES DO CLIENTE */
+
+.info-cliente-v10 {
+    margin-left: 15px;
+}
+
+
+.info-cliente-v10 strong {
+    font-size: 15px;
+}
+
+
+.info-cliente-v10 span {
+    font-size: 13px;
+
+    color: #777;
+}
+
+
+/* SETAS */
+
+.seta-v10 {
+    position: absolute;
+
+    width: 45px;
+
+    height: 45px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    color: #777;
+
+    font-size: 25px;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    z-index: 10;
+
+    transition: 0.3s;
+}
+
+
+.seta-v10:hover {
+    transform: scale(1.1);
+
+    color: #316fc9;
+}
+
+
+/* SETA ESQUERDA */
+
+.seta-esquerda-v10 {
+    left: 20px;
+}
+
+
+/* SETA DIREITA */
+
+.seta-direita-v10 {
+    right: 20px;
+}
+
+
+/* INDICADORES */
+
+.indicadores-v10 {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+
+.super-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+
+    background-color: rgba(34, 85, 156, 0.137);
+    border-radius: 9px;
+}
+
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 0 40px;
+
+    border-right: 1px solid rgba(25, 74, 142, 0.15);
+}
+
+
+/* Remove a linha do último item */
+.stat-item:last-child {
+    border-right: none;
+}
+
+
+.icone-down-v2 {
+    background-color: rgba(25, 74, 142, 0.2);
+
+    border-radius: 50%;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+
+.icone-down-v2 i {
+    color: #0453fe;
+    font-size: 25px;
+}
+
+
+.div-junk {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h2-down-icon-v2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+
+.p-mid-icon-v2 {
+    margin: 3px 0 0;
+    font-size: 17px;
+}
+
+.third-template{
+background:
+url("./IMAGENS/PONTILHADO.png") center / cover no-repeat,
+ #041428;
+display: flex;
+margin: 30px auto;
+width: 75%;
+align-items: center;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Imagem ou vídeo */
+.video-container img,
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    z-index: 9999;
+}
+
+/* Caixa do botão */
+.video-overlay-v2 {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 999;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    background: transparent;
+
+    transition: transform 0.2s ease;
+}
+
+
+/* Círculo do play */
+.play-button {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #0867d8;
+    border-radius: 50%;
+padding: 5px;
+    color: white;
+    font-size: 40px;
+
+    flex-shrink: 0;
+      pointer-events: none;
+}
+
+.video-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.video-box {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.fechar-video {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    background: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.about-us{
+    margin-left:100px;
+}
+
+.h2-2-mid{
+    font-size:40px;
+    line-height: 0.9;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.video-overlay-v2-v3 {
+ display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 15px 23px;
+
+    background: rgba(4, 20, 40, 0.85);
+    border: 1px solid #304565;
+    border-radius: 9px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.play-button-v3 {
+    width: 17px;
+    height: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #0453fe;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 8px;
+    line-height: 1; 
+}
+
+.video-overlay-v2-v3:hover {
+    border-color: #0875ff;
+    background: rgba(8, 103, 216, 0.15);
+    transform: scale(1.05);
+}
+
+
+.third-p{
+    font-size:20px;
+    color: #0453fe;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-nexa{
+        color:white;
+    font-weight:300;
+        margin-bottom:40px;
+        font-size: 20px;
+
+        
+}
+
+
+
+/* TAMANHO DO VÍDEO */
+.third-template .video-container {
+    width: 500px !important;
+    max-width: 400px !important;
+    min-width: 400px !important;
+    flex: 0 0 500px !important;
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+/* IMAGEM */
+.third-template .video-container img {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+}
+
+.fourth-template{
+     padding-top: 80px;
+     padding-bottom:50px;
+     display: block;
+     justify-content: center;
+}
+
+
+
+.rocket-space-v2{
+display: flex;
+padding: 20px;
+background-color: #0E52E0;
+width: 81%;
+align-items: center;
+gap: 40px;
+margin: 0 auto;
+border-radius: 9px;
+}
+
+.Third-B-v2{
+    margin-right: 100px;
+    background-color: white;
+    border: none;
+    cursor:pointer;
+    padding: 10px;  
+    border-radius:9px;
+    color: #0E52E0;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 15px 50px;
+    font-size: 15px;
+}
+
+.Third-B-v2:hover {
+    transform: scale(1.1);
+}
+
+
+.icone-4-v2 {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.icone-4-v2 i {
+    color: white;
+}
+
+
+.h3-3-mid-v2{
+    font-size:20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.rocket-fire-v2{
+        color:white;
+        font-weight:300;
+        font-size: 15px;
+}
+
+.newsletter-box {
+    width: 84%;
+    margin: 30px auto;
+
+    padding: 15px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(34, 85, 156, 0.08);
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+
+/* Ícone + textos */
+
+.newsletter-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.newsletter-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0453fe;
+
+    border-radius: 10px;
+}
+
+
+.newsletter-icon i {
+    color: white;
+    font-size: 32px;
+}
+
+
+.newsletter-info h3 {
+    margin: 0;
+
+    font-size: 25px;
+    line-height: 1;
+}
+
+
+.newsletter-info p {
+    margin-top: 6px;
+
+    font-size: 17px;
+}
+
+
+/* Formulário */
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.newsletter-form input {
+    width: 500px;
+    height: 50px;
+
+    box-sizing: border-box;
+
+    padding: 0 20px;
+
+    border: 1px solid #e1e5ed;
+    border-radius: 6px;
+
+    background-color: white;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+
+.newsletter-form input:focus {
+    border-color: #0453fe;
+}
+
+
+.newsletter-form button {
+    width: 60px;
+    height: 50px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #0453fe;
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.newsletter-form button:hover {
+    opacity: 0.85;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — TABLET
+   ========================================================= */
+
+@media (max-width: 1024px) and (min-width: 601px) {
+
+    /* HERO */
+    .first-template-v2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 30px 30px;
+    }
+
+    .left-part-1 {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img-mobile{
+                width: 90%;
+        max-width: 500px;
+        position: relative;
+        margin: 20px auto 0;
+        display: block;
+    }
+.worker-img{
+    display:none;
+}
+
+    .first-h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .first-p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .time-right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img-blocos {
+        justify-content: center;
+    }
+
+
+    /* REMOVE O DEPOIMENTO DA PRIMEIRA PARTE */
+    .depoimento-v11 {
+        display: none;
+    }
+
+    /* =====================================================
+       CARROSSEL
+       ===================================================== */
+
+    .carousel-v10 {
+        width: 85%;
+    }
+
+    .depoimento-v10 {
+        min-width: calc((100% - 25px) / 2);
+        height: 300px;
+        padding: 25px;
+    }
+
+    .seta-esquerda-v10 {
+        left: 10px;
+    }
+
+    .seta-direita-v10 {
+        right: 10px;
+    }
+
+    /* =====================================================
+       ESTATÍSTICAS
+       ===================================================== */
+
+    .super-box {
+        width: 90%;
+        padding: 25px 15px;
+    }
+
+    .stat-item {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .p-mid-icon-v2 {
+        font-size: 14px;
+    }
+
+    /* =====================================================
+       BLOCO DO VÍDEO
+       ===================================================== */
+
+    .third-template {
+        width: 90%;
+    }
+
+.third-template .video-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    flex: 0 0 100% !important;
+    margin-left: 0;
+}
+
+.third-template .video-container img {
+    width: 80% !important;
+    height: auto !important;
+    display: block;
+    justify-self:center;
+    border-radius:12px;
+}
+
+    .about-us {
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    .h2-2-mid {
+        font-size: 32px;
+    }
+
+    .about-nexa {
+        font-size: 17px;
+    }
+
+    /* =====================================================
+       CTA
+       ===================================================== */
+
+    .rocket-space-v2 {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .Third-B-v2 {
+        margin-right: 10px;
+        padding: 13px 30px;
+    }
+
+    /* =====================================================
+       NEWSLETTER
+       ===================================================== */
+
+    .newsletter-box {
+        width: 90%;
+        padding: 15px 20px;
+    }
+
+    .newsletter-form input {
+        width: 300px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — CELULAR
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    section {
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    /* =====================================================
+       HERO
+       ===================================================== */
+
+    .first-template-v2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px 25px;
+    }
+
+    .left-part-1 {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-h1 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .first-p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .first-p br {
+        display: none;
+    }
+
+    /* =====================================================
+       IMAGEM — 100% NO CELULAR
+       ===================================================== */
+
+    .hero-img-mobile {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        right: auto;
+        margin: 15px auto 0;
+        display: block;
+    }
+
+    .worker-img{
+        display:none;
+    }
+    /* REMOVE O PRIMEIRO DEPOIMENTO */
+    .depoimento-v11 {
+        display: none;
+    }
+
+    /* =====================================================
+       BLOQUINHOS DE PERFIL
+       ===================================================== */
+
+    .img-blocos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img-blocos img {
+        width: 55px;
+    }
+
+    .f-h2 {
+        font-size: 17px;
+        margin-left: 15px;
+    }
+
+    /* =====================================================
+       TÍTULO
+       ===================================================== */
+
+    .fourth-p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .first-h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    /* =====================================================
+       CARROSSEL
+       ===================================================== */
+
+    .carousel-container-v10 {
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .carousel-v10 {
+        width: 78%;
+    }
+
+    .depoimentos-v10 {
+        gap: 15px;
+    }
+
+    .depoimento-v10 {
+        min-width: 100%;
+        width: 100%;
+        height: 320px;
+        padding: 25px 20px;
+    }
+
+    .texto-depoimento-v10 {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .texto-depoimento-v10 br {
+        display: none;
+    }
+
+    .aspas-v10 {
+        font-size: 50px;
+    }
+
+    .estrelas-v10 {
+        left: 20px;
+        bottom: 85px;
+    }
+
+    .perfil-v10 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .info-cliente-v10 {
+        margin-left: 10px;
+    }
+
+    .info-cliente-v10 strong {
+        font-size: 14px;
+    }
+
+    .info-cliente-v10 span {
+        font-size: 12px;
+    }
+
+    /* =====================================================
+       SETAS
+       ===================================================== */
+
+    .seta-v10 {
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+    }
+
+    .seta-esquerda-v10 {
+        left: 5px;
+    }
+
+    .seta-direita-v10 {
+        right: 5px;
+    }
+
+    /* =====================================================
+       ESTATÍSTICAS
+       ===================================================== */
+
+    .super-box {
+        width: calc(100% - 40px);
+        margin: 25px auto;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 10px;
+        box-sizing: border-box;
+    }
+
+    .stat-item {
+        padding: 10px;
+        border-right: none;
+        gap: 10px;
+    }
+
+    .icone-down-v2 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .icone-down-v2 i {
+        font-size: 20px;
+    }
+
+    .h2-down-icon-v2 {
+        font-size: 19px;
+    }
+
+    .p-mid-icon-v2 {
+        font-size: 12px;
+    }
+
+    /* =====================================================
+       BLOCO DO VÍDEO
+       ===================================================== */
+
+    .third-template {
+        width: calc(100% - 30px);
+        margin: 25px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .third-template .video-container {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        margin: 0;
+    }
+
+    .about-us {
+        margin: 25px 20px 0;
+        text-align: center;
+    }
+
+    .third-p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .h2-2-mid {
+        font-size: 24px !important;
+        line-height: 1.1;
+    }
+
+    .about-nexa {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .about-nexa br {
+        display: none;
+    }
+
+    /* =====================================================
+       CTA
+       ===================================================== */
+
+    .rocket-space-v2 {
+        width: calc(100% - 30px);
+        padding: 25px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        box-sizing: border-box;
+    }
+
+    .icone-4-v2 {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .icone-4-v2 i {
+        font-size: 40px;
+    }
+
+    .h3-3-mid-v2 {
+        font-size: 19px;
+        line-height: 1.3;
+    }
+
+    .rocket-fire-v2 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Third-B-v2 {
+        margin: 5px 0 0;
+        padding: 13px 35px;
+        font-size: 14px;
+    }
+
+    /* =====================================================
+       NEWSLETTER
+       ===================================================== */
+
+    .newsletter-box {
+        width: calc(100% - 30px);
+        margin: 25px auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .newsletter-info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .newsletter-icon {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    .newsletter-icon i {
+        font-size: 24px;
+    }
+
+    .newsletter-info h3 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .newsletter-info p {
+        font-size: 13px;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        display: flex;
+        gap: 8px;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+        height: 48px;
+    }
+
+    .newsletter-form button {
+        width: 50px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+}
+
+
+/* =========================================================
+   CELULARES MUITO PEQUENOS
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+    .first-template-v2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .first-h1 {
+        font-size: 25px;
+    }
+
+    .first-p {
+        font-size: 14px;
+    }
+
+    .img-blocos img {
+        width: 48px;
+    }
+
+    .f-h2 {
+        font-size: 15px;
+    }
+
+    .depoimento-v10 {
+        height: 330px;
+    }
+
+    .super-box {
+        width: calc(100% - 30px);
+        gap: 15px 5px;
+    }
+
+    .stat-item {
+        padding: 5px;
+    }
+
+    .icone-down-v2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .p-mid-icon-v2 {
+        font-size: 11px;
+    }
+
+    .h2-2-mid {
+        font-size: 25px;
+    }
+
+    .rocket-space-v2 {
+        width: calc(100% - 30px);
+    }
+}

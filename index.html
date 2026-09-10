@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br, en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXA Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <section>
+        <div id="formulario"></div>
+        <div class="first-template">
+            <img class="hero-img-mobile" src="./IMAGENS/home_hero_pessoa.png" alt="profissional trabalhando">
+            <div class="left-part-1">
+                <h1 class="first-h1">
+                    Trasnformando ideias <br>em <span class="home-h1">resultados digitais</span>
+                </h1>
+
+                <p class="first-p">
+                    A Nexa Digital é uma agência especializada em soluções digitais <br>que ajudam empresas a crescerem,
+                    venderem mais e se <br>destacarem no mercado.
+                </p>
+
+                <button onclick="openform()" class="second-B">
+                    Solicitar Proposta
+                    <span class="seta">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+                <div class="iconebox">
+                    <div class="beneficio">
+                        <div class="icone">
+                            <i class="fa-solid fa-expand"></i>
+                        </div>
+
+                        <span class="icontext">Estratégias<br>personalizadas</span>
+                    </div>
+
+                    <div class="beneficio">
+                        <div class="icone">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+
+                        <span class="icontext">Foco em<br>resultados</span>
+                    </div>
+
+                    <div class="beneficio">
+                        <div class="icone">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+
+                        <span class="icontext">Suporte<br>dedicado</span>
+                    </div>
+                </div>
+            </div>
+            <img class="hero-img" src="./IMAGENS/hero.png" alt="profissional trabalhando">
+        </div>
+
+
+
+        <div class="second-template">
+            <p class="second-p">NOSSOS SERVIÇOS</p>
+
+            <h2 class="first-h2">Soluções completas para <br>impulsionar o seu negócio</h2>
+            <div class="divisor-de-pagina"></div>
+
+            <div class="icones-meio-da-pagina">
+
+
+                <div class="caixa-de-icones">
+                    <div class="icone-mid">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+
+                    <h2 class="h2-mid-icon">Desenvolvimento Web</h2>
+                    <p class="p-mid-icon">Sites e lojas virtuais responsivas, <br>rápidos e otimizados para
+                        <br>conversão
+                    </p>
+                </div>
+
+                <div class="caixa-de-icones">
+                    <div class="icone-mid">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+
+                    <h2 class="h2-mid-icon">Marketing Digital</h2>
+                    <p class="p-mid-icon">Campanhas estratégicas que <br>aumentam sua visibilidade e <br>geram
+                        resultados</p>
+                </div>
+
+                <div class="caixa-de-icones">
+                    <div class="icone-mid">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+
+                    <h2 class="h2-mid-icon">Branding e Identidade</h2>
+                    <p class="p-mid-icon">Criamos marcas fortes e <br>memoráveis que conectam e <br>geram valor</p>
+                </div>
+
+                <div class="caixa-de-icones">
+                    <div class="icone-mid">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+
+                    <h2 class="h2-mid-icon">SEO e Performance</h2>
+                    <p class="p-mid-icon">otimização completa para <br>melhor posicionamento e mais <br> tráfego
+                        orgânico</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="third-template">
+            <div class="video-container">
+
+               
+
+                    <img src="./IMAGENS/SOBRE.png" alt="Conheça a Nexa Digital">
+
+                    <button class="video-overlay" onclick="abrirVideo()">
+
+                        <div class="play-button">
+                            ▶
+                        </div>
+
+                        <div class="video-text">
+                            <strong>Assista ao vídeo</strong>
+                            <span>Conheça a Nexa Digital</span>
+                        </div>
+
+                    </button>
+                
+                <div id="videoModal" class="video-modal">
+                    <div class="video-box">
+                        <button class="fechar-video" onclick="fecharVideo()">×</button>
+
+                        <iframe id="youtubeVideo" src="https://youtu.be/DmHj1lHWNIw?si=EV-tXpr0qYyv8Gg9"
+                            allow="autoplay; encrypted-media" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="about-us">
+                <p class="third-p">SOBRE NÓS</p>
+                <h2 class="h2-2-mid">Paixão por estratégia, <br>foco em resultados</h2>
+                <p class="about-nexa">A Nexa Digital nasceu com o propósito de ajudar empresas a <br>alcançarem seu
+                    verdadeiro potencial no digital. Unimos criatividade, <br>tecnologia e estratégia para entregar
+                    soluções que geram impacto <br>real e duradouro.</p>
+
+                <div class="iconebox-3">
+
+                    <div class="beneficio-3">
+
+                        <div class="linha-topo-3">
+                            <div class="icone-3">
+                                <i class="fa-solid fa-clipboard-check   "></i>
+                            </div>
+
+                            <span class="icontext-3">+120</span>
+                        </div>
+
+                        <p class="p-mid-3">Projetos Entregues</p>
+
+                    </div>
+                    <div class="beneficio-3">
+
+                        <div class="linha-topo-3">
+                            <div class="icone-3">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+
+                            <span class="icontext-3">+80</span>
+                        </div>
+
+                        <p class="p-mid-3">Clientes satisfeitos</p>
+
+                    </div>
+                    <div class="beneficio-3">
+
+                        <div class="linha-topo-3">
+                            <div class="icone-3">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+
+                            <span class="icontext-3">+5</span>
+                        </div>
+
+                        <p class="p-mid-3">Anos de experiência</p>
+
+                    </div>
+                </div>
+            </div>
+          </div> 
+            <div class="fourth-template">
+           <p class="second-p">PORTFÓLIO</p>
+
+            <h2 class="first-h2">Alguns projetos que <br>geraram resultados incríveis</h2>
+  <div class="divisor-de-pagina"></div>
+
+<div class="categorias">
+    <button class="categoria active" data-categoria="todos">Todos</button>
+    <button class="categoria" data-categoria="sites">Sites</button>
+    <button class="categoria" data-categoria="e-commerce">E-commerce</button>
+    <button class="categoria" data-categoria="branding">Branding</button>
+    <button class="categoria" data-categoria="marketing">Marketing</button>
+</div>
+
+
+<div class="projetos">
+            <a href="http://127.0.0.1:5500/Projeto%20landing%20page/index.html" data-categoria="todos sites" target="blank" class="projeto">
+    <img class="img-port" src="./IMAGENS/Nexa.png" alt="Site desenvolvido">
+
+    <div class="info">
+        <h3 class="h3-port">Nexa Digital</h3>
+        <p class="p-port">Desenvolvimento Web</p>
+    </div>
+            <span class="portfolio-external-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </span>
+</a>
+
+            <a href="https://www.terabyteshop.com.br/" data-categoria="todos e-commerce" target="blank" class="projeto">
+    <img class="img-port" src="./IMAGENS/Terabyte.png" alt="Site desenvolvido">
+
+    <div class="info">
+        <h3 class="h3-port">Terabyte</h3>
+        <p class="p-port">E-commerce</p>
+    </div>
+            <span class="portfolio-external-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </span>
+</a>
+
+            <a href="https://vitalisclinicspa.com.br/" data-categoria="todos branding" target="blank" class="projeto">
+    <img class="img-port" src="./IMAGENS/clinica vitalis.png" alt="Site desenvolvido">
+
+    <div class="info">
+        <h3 class="h3-port">Vitalis clinic</h3>
+        <p class="p-port">Branding</p>
+    </div>
+            <span class="portfolio-external-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </span>
+</a>
+
+            <a href="https://jidu.com.br/" data-categoria="todos marketing" target="blank" class="projeto">
+    <img class="img-port" src="./IMAGENS/jidu.png" alt="Site desenvolvido">
+
+    <div class="info">
+        <h3 class="h3-port">Jidu</h3>
+        <p class="p-port">Marketing</p>
+    </div>
+            <span class="portfolio-external-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </span>
+</a>
+</div>
+
+<div class="rocket-space">
+                        <div class="icone-4">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+     <div>
+        <h3 class="h3-3-mid">Pronto para transformar o seu negócio?</h3>
+        <p class="rocket-fire">Vamos criar juntos uma estratégia que leve sua empresa para o próximo nível</p>
+     </div>
+ <a class="Third-B"
+   href="https://wa.me/5582996385017"
+   target="_blank"
+   rel="noopener noreferrer">
+    Fale Conosco
+</a>
+</div>
+
+           <p class="fourth-p">DEPOIMENTOS</p>
+           <h2 class="first-h2">O que nossos clientes dizem</h2>
+
+           <div class="depoimentos">
+<div class="depoimento">
+
+    <div class="aspas">“</div>
+
+    <p class="texto-depoimento">
+        A Nexa Digital entendeu exatamente o que <br>precisávamos
+        e entregou um site incrível. <br>Nosso faturamento aumentou
+        40% em <br>apenas 3 meses!
+    </p>
+
+    <div class="cliente">
+
+        <img class="perfil" src="./IMAGENS/Carla.png" alt="Carla Mendes">
+
+        <div class="info-cliente">
+            <strong>Carla Mendes</strong><br>
+            <span>CEO, Loja Urbana</span>
+        </div>
+
+    </div>
+
+
+</div>
+<div class="depoimento">
+
+    <div class="aspas">“</div>
+
+    <p class="texto-depoimento">
+        Profissionais dedicados e criativos.<br>
+Nossa marca ganhou força e hoje somos <br>referência no nosso segmento.
+    </p>
+
+    <div class="cliente">
+
+        <img class="perfil" src="./IMAGENS/Rafael.png" alt="Rafael Costa">
+
+        <div class="info-cliente">
+            <strong>Rafael Costa</strong><br>
+            <span>Diretor, Clínica Vitalis</span>
+        </div>
+
+    </div>
+</div>
+<div class="depoimento">
+
+    <div class="aspas">“</div>
+
+    <p class="texto-depoimento">
+        O suporte é excepcional! Sempre prontos <br>para ajudar e entregar resultados acima <br>do esperado
+    </p>
+
+    <div class="cliente">
+
+        <img class="perfil" src="./IMAGENS/Juliana.png" alt="Juliana Alves">
+
+        <div class="info-cliente">
+            <strong>Juliana Alves</strong><br>
+            <span>Gerente, GreenLife</span>
+        </div>
+
+    </div>
+ </div>
+ </div>
+    </section>
+     <div id="footer"></div>
+
+
+
+    <script src="./Javascript.js"></script>
+    <script>
+    history.scrollRestoration = "manual";
+
+    window.onload = function () {
+        window.scrollTo(0, 0);
+    };
+</script>
+</body>
+
+</html>

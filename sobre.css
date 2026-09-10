@@ -1,0 +1,1257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 70px;
+    background-color: #f1f5fb;
+    padding-bottom: 30px;
+}
+
+.sobre-img{
+    margin-right: 100px;
+}
+
+.second-template-v2{
+ background-color: #f1f5fb; 
+     padding-top: 80px;
+     padding-bottom:60px;
+}
+
+.divisor-de-pagina-v2{
+        width: 50px;
+    height: 2px;
+    background-color: #0453fe;
+    margin: 30px auto;
+}
+
+.caixa-de-icones-v2{
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    width: 20%;
+    display:flex;
+    flex-direction:column;
+    padding: 35px;
+}
+
+.h2-mid-icon-v2{
+margin-top: 15px;
+margin-bottom:15px;
+font-size:20px;
+}
+
+.icone-mid-v2{
+    background-color:rgba(25, 74, 142, 0.2);
+    border-radius:13%;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.icone-mid-v2 i{
+    color: #0453fe;
+    font-size: 27px;
+}
+
+.icones-meio-da-pagina-v2{
+    display: flex;
+        justify-content: center;
+        gap: 70px;
+}
+
+.fa-circle-check{
+    color: #0453fe;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.super-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+
+    background-color: rgba(34, 85, 156, 0.137);
+    border-radius: 9px;
+}
+
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 0 40px;
+
+    border-right: 1px solid rgba(25, 74, 142, 0.15);
+}
+
+
+/* Remove a linha do último item */
+.stat-item:last-child {
+    border-right: none;
+}
+
+
+.icone-down-v2 {
+    background-color: rgba(25, 74, 142, 0.2);
+
+    border-radius: 50%;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+
+.icone-down-v2 i {
+    color: #0453fe;
+    font-size: 25px;
+}
+
+
+.div-junk {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h2-down-icon-v2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+
+.p-mid-icon-v2 {
+    margin: 3px 0 0;
+    font-size: 17px;
+}
+
+.historia {
+    text-align: center;
+    padding: 10px 8% 40px 8%;
+    background-color: #f1f5fb;
+}
+
+.historia h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.linha-titulo {
+    width: 50px;
+    height: 2px;
+    background-color: #0453fe;
+    margin: 0 auto 45px;
+}
+
+
+/* Área da timeline */
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+/* Linha horizontal */
+
+.timeline::before {
+    content: "";
+    position: absolute;
+
+    top: 7px;
+    left: 10%;
+    right: 10%;
+
+    height: 2px;
+
+    background-color: #d4dbea;
+}
+
+
+/* Cada etapa */
+
+.timeline-item {
+    width: 22%;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Bolinha */
+
+.ponto {
+    width: 12px;
+    height: 12px;
+
+    border: 3px solid #0453fe;
+    border-radius: 50%;
+
+    background-color: #f1f5fb;
+
+    margin: 0 auto 25px;
+}
+
+
+/* Ano */
+
+.timeline-item h2 {
+    color: #0453fe;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+
+/* Título */
+
+.timeline-item h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* Texto */
+
+.timeline-item p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #4d5870;
+}
+
+.time-left{
+    margin-left: 20px;
+}
+
+.nosso-time{
+    display: flex;
+    background-color: #041428;
+    margin: 30px auto;
+    width: 80%;
+    padding: 30px;
+    border-radius: 9px;
+    justify-content: space-between;
+}
+
+.our-p{
+    color: #0453fe;
+    margin-bottom: 10px;
+}
+
+.p-nosso-time{
+    color: rgb(234, 233, 233);
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.h2-nosso-time{
+    color: white;
+    font-size: 30px;
+}
+
+.right-p-time{
+    color: rgb(234, 233, 233);
+        text-align: right;
+}
+
+.time-right{
+    margin-right: 80px;
+}
+
+.img-blocos{
+    display: flex;
+    gap: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.img-blocos img{
+    width: 100px;
+}
+
+.oito{
+margin-left: -25px;
+opacity: 0.8;
+}
+
+
+.rocket-space-v2{
+display: flex;
+padding: 20px;
+background-color: #0E52E0;
+width: 81%;
+align-items: center;
+gap: 40px;
+margin: 0 auto;
+border-radius: 9px;
+}
+
+.Third-B-v2{
+    margin-right: 100px;
+    background-color: white;
+    border: none;
+    cursor:pointer;
+    padding: 10px;  
+    border-radius:9px;
+    color: #0E52E0;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 15px 50px;
+    font-size: 15px;
+}
+
+.Third-B-v2:hover {
+    transform: scale(1.1);
+}
+
+
+.icone-4-v2 {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.icone-4-v2 i {
+    color: white;
+}
+
+
+.h3-3-mid-v2{
+    font-size:20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.rocket-fire-v2{
+        color:white;
+        font-weight:300;
+        font-size: 15px;
+}
+
+.newsletter-box {
+    width: 84%;
+    margin: 30px auto;
+
+    padding: 15px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(34, 85, 156, 0.08);
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+
+/* Ícone + textos */
+
+.newsletter-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.newsletter-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0453fe;
+
+    border-radius: 10px;
+}
+
+
+.newsletter-icon i {
+    color: white;
+    font-size: 32px;
+}
+
+
+.newsletter-info h3 {
+    margin: 0;
+
+    font-size: 25px;
+    line-height: 1;
+}
+
+
+.newsletter-info p {
+    margin-top: 6px;
+
+    font-size: 17px;
+}
+
+
+/* Formulário */
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.newsletter-form input {
+    width: 500px;
+    height: 50px;
+
+    box-sizing: border-box;
+
+    padding: 0 20px;
+
+    border: 1px solid #e1e5ed;
+    border-radius: 6px;
+
+    background-color: white;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+
+.newsletter-form input:focus {
+    border-color: #0453fe;
+}
+
+
+.newsletter-form button {
+    width: 60px;
+    height: 50px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #0453fe;
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.newsletter-form button:hover {
+    opacity: 0.85;
+}
+
+    .hero-img-mobile {
+        display: none;
+    }
+
+/* =========================================================
+   RESPONSIVO - TABLET
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    /* =========================
+       PRIMEIRA SEÇÃO
+    ========================= */
+
+    section {
+        margin-top: 70px;
+    }
+
+    .sobre-img{
+        display:none;
+    }
+
+    .first-template {
+        padding: 40px 5%;
+        box-sizing: border-box;
+    }
+
+    .hero-img-mobile {
+        display: block !important;
+
+        width: 90%;
+
+        margin: 0 auto 25px;
+        max-width:1000px;
+    }
+
+    .first-h1 {
+        font-size: 38px;
+    }
+
+    .first-p {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       BENEFÍCIOS
+    ========================= */
+
+    .iconebox {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .beneficio {
+        display: flex;
+        align-items: center;
+    }
+
+    .icontext {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       MISSÃO / VISÃO / VALORES
+    ========================= */
+
+    .second-template-v2 {
+        padding: 60px 5%;
+    }
+
+    .icones-meio-da-pagina-v2 {
+        gap: 20px;
+        align-items: stretch;
+    }
+
+    .caixa-de-icones-v2 {
+        width: 30%;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .p-mid-icon-v2 {
+        font-size: 15px;
+    }
+
+    .icone-mid-v2 {
+    background-color: rgba(25, 74, 142, 0.2);
+    border-radius: 13%;
+    height: 65px;
+    width: 65px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* adiciona isso */
+    margin: 0 auto;
+}
+
+    .icone-mid-v2 i{
+font-size:45px;
+}
+
+
+    /* =========================
+       ESTATÍSTICAS
+    ========================= */
+
+    .super-box {
+        width: 90%;
+        padding: 25px 10px;
+        box-sizing: border-box;
+    }
+
+    .stat-item {
+        padding: 0 20px;
+        gap: 10px;
+    }
+
+    .h2-down-icon-v2 {
+        font-size: 20px;
+    }
+
+    .stat-item .p-mid-icon-v2 {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       HISTÓRIA
+    ========================= */
+
+    .historia {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .timeline {
+        gap: 20px;
+    }
+
+    .timeline-item {
+        width: 23%;
+    }
+
+    .timeline-item h2 {
+        font-size: 30px;
+    }
+
+    .timeline-item h3 {
+        font-size: 18px;
+    }
+
+    .timeline-item p {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       NOSSO TIME
+    ========================= */
+
+    .nosso-time {
+        width: 90%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .time-left {
+        margin-left: 0;
+    }
+
+    .time-right {
+        margin-right: 0;
+    }
+
+    .img-blocos {
+        justify-content: center;
+    }
+
+    .img-blocos img {
+        width: 75px;
+    }
+
+
+    /* =========================
+       CTA
+    ========================= */
+
+    .rocket-space-v2 {
+        width: 90%;
+        box-sizing: border-box;
+        gap: 20px;
+    }
+
+    .Third-B-v2 {
+        margin-right: 0;
+        padding: 13px 30px;
+        white-space: nowrap;
+    }
+
+
+    /* =========================
+       NEWSLETTER
+    ========================= */
+
+    .newsletter-box {
+        width: 90%;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .newsletter-form {
+        flex: 1;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVO - CELULAR
+========================================================= */
+
+@media (max-width: 600px) {
+
+    /* =========================
+       SEÇÃO PRINCIPAL
+    ========================= */
+
+    section {
+        margin-top: 70px;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+
+    /* =========================
+       PRIMEIRO TEMPLATE
+    ========================= */
+
+    .first-template {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 30px 20px 20px;
+        box-sizing: border-box;
+    }
+
+
+    /* IMAGEM MOBILE */
+
+    .hero-img-mobile {
+        display: block !important;
+
+        width: 100%;
+
+        margin: 0 auto 25px;
+
+        order: 1;
+    }
+
+
+    /* IMAGEM ORIGINAL */
+
+    .first-template > .sobre-img:not(.hero-img-mobile) {
+        display: none;
+    }
+
+
+    /* TEXTO */
+
+    .left-part-1 {
+        width: 100%;
+        text-align: center;
+
+        order: 2;
+    }
+
+    .first-h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .first-p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .p-sobre br {
+        display: none;
+    }
+
+
+    /* =========================
+       BENEFÍCIOS
+    ========================= */
+
+    .iconebox {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 12px;
+
+        margin-top: 25px;
+    }
+
+    .beneficio {
+        width: 220px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: flex-start;
+
+        gap: 15px;
+    }
+
+    .icone {
+        flex-shrink: 0;
+    }
+
+    .icontext {
+        text-align: left;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       ESSÊNCIA
+    ========================= */
+
+    .second-template-v2 {
+        padding: 50px 20px 40px;
+        box-sizing: border-box;
+    }
+
+    .second-p {
+        font-size: 13px;
+    }
+
+    .first-h2 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+
+    /* =========================
+       CARDS
+    ========================= */
+
+    .icones-meio-da-pagina-v2 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .caixa-de-icones-v2 {
+
+        width: 100%;
+
+        max-width: 380px;
+
+        padding: 25px;
+
+        box-sizing: border-box;
+    }
+
+    .caixa-de-icones-v2 .p-mid-icon-v2 {
+        font-size: 15px;
+    }
+
+    .caixa-de-icones-v2 p br {
+        display: none;
+    }
+
+
+    /* =========================
+       ESTATÍSTICAS
+    ========================= */
+
+    .super-box {
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        padding: 20px;
+
+        margin-top: 25px;
+
+        box-sizing: border-box;
+    }
+
+    .stat-item {
+
+        width: 100%;
+
+        padding: 10px 5px;
+
+        border-right: none;
+
+        border-bottom: 1px solid rgba(25, 74, 142, 0.15);
+
+        box-sizing: border-box;
+    }
+
+    .stat-item:last-child {
+        border-bottom: none;
+    }
+
+    .icone-down-v2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .h2-down-icon-v2 {
+        font-size: 20px;
+    }
+
+    .stat-item .p-mid-icon-v2 {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       HISTÓRIA
+    ========================= */
+
+    .historia {
+
+        padding: 40px 20px;
+
+        text-align: center;
+
+        box-sizing: border-box;
+    }
+
+    .historia h2 {
+        font-size: 27px;
+        line-height: 1.2;
+    }
+
+
+    /* TIMELINE VERTICAL */
+
+    .timeline {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 30px;
+
+        position: relative;
+
+        padding-left: 25px;
+
+        text-align: left;
+    }
+
+
+    /* LINHA VERTICAL */
+
+    .timeline::before {
+
+        top: 0;
+
+        bottom: 0;
+
+        left: 7px;
+
+        right: auto;
+
+        width: 2px;
+
+        height: auto;
+    }
+
+
+    /* ITEM */
+
+    .timeline-item {
+
+        width: 100%;
+
+        position: relative;
+
+        padding-left: 20px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* BOLINHA */
+
+    .ponto {
+
+        position: absolute;
+
+        left: -25px;
+
+        top: 3px;
+
+        margin: 0;
+
+        width: 12px;
+
+        height: 12px;
+
+        box-sizing: border-box;
+    }
+
+    .timeline-item h2 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .timeline-item h3 {
+        font-size: 18px;
+    }
+
+    .timeline-item p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       NOSSO TIME
+    ========================= */
+
+    .nosso-time {
+
+        width: 90%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 30px;
+
+        padding: 30px 20px;
+
+        box-sizing: border-box;
+
+        text-align: center;
+    }
+
+    .time-left {
+
+        width: 100%;
+
+        margin-left: 0;
+    }
+
+    .h2-nosso-time {
+
+        font-size: 27px;
+
+        line-height: 1.2;
+    }
+
+    .p-nosso-time {
+
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+    .p-nosso-time br {
+        display: none;
+    }
+
+
+    /* =========================
+       FOTOS DO TIME
+    ========================= */
+
+    .time-right {
+
+        width: 100%;
+
+        margin-right: 0;
+    }
+
+    .img-blocos {
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        gap: 3px;
+
+        margin: 0 0 10px;
+    }
+
+    .img-blocos img {
+
+        width: 55px;
+        max-width: 18%;
+    }
+
+    .oito {
+        margin-left: -15px;
+    }
+
+    .right-p-time {
+
+        text-align: center;
+
+        font-size: 14px;
+
+        line-height: 1.5;
+    }
+
+
+    /* =========================
+       CTA AZUL
+    ========================= */
+
+    .rocket-space-v2 {
+
+        width: 90%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+        gap: 15px;
+
+        padding: 30px 20px;
+
+        box-sizing: border-box;
+    }
+
+    .icone-4-v2 {
+
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+    .h3-3-mid-v2 {
+
+        font-size: 19px;
+
+        line-height: 1.4;
+    }
+
+    .rocket-fire-v2 {
+
+        font-size: 14px;
+
+        line-height: 1.5;
+    }
+
+    .Third-B-v2 {
+
+        margin: 5px 0 0;
+
+        padding: 13px 35px;
+
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       NEWSLETTER
+    ========================= */
+
+    .newsletter-box {
+
+        width: 90%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 20px;
+
+        padding: 20px;
+
+        box-sizing: border-box;
+    }
+
+
+    .newsletter-info {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 15px;
+    }
+
+
+    .newsletter-icon {
+
+        width: 55px;
+        height: 55px;
+
+        flex-shrink: 0;
+    }
+
+
+    .newsletter-icon i {
+        font-size: 26px;
+    }
+
+
+    .newsletter-info h3 {
+
+        font-size: 19px;
+
+        line-height: 1.2;
+    }
+
+
+    .newsletter-info p {
+
+        font-size: 13px;
+
+        line-height: 1.4;
+    }
+
+
+    .newsletter-form {
+
+        width: 100%;
+
+        display: flex;
+
+        gap: 8px;
+    }
+
+
+    .newsletter-form input {
+
+        width: 100%;
+
+        min-width: 0;
+
+        height: 45px;
+
+        padding: 0 12px;
+    }
+
+
+    .newsletter-form button {
+
+        width: 50px;
+
+        height: 45px;
+
+        flex-shrink: 0;
+    }
+
+}

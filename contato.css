@@ -1,0 +1,1428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    margin-top: 70px;
+    background-color: #f1f5fb;
+    padding-bottom: 30px;
+}
+
+.first-template-v2{
+    background:
+        url("./IMAGENS/FUNDO PONTILHADO.png") center / cover no-repeat,
+        radial-gradient(
+            circle at 65% 50%,
+            #00152d 5%,
+            #001327 65%,
+            #011225 100%
+        );
+            display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-p{
+    margin-top: 50px;
+}
+
+.caixa-de-icones-v3{
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    width: 18%;
+    display:flex;
+    flex-direction:column;
+    padding: 35px;
+    align-items: center;
+    gap: 5px;
+}
+
+.h2-mid-icon-v2{
+margin-top: 15px;
+margin-bottom:15px;
+font-size:20px;
+}
+
+.icone-mid-v2{
+    background-color:#0453fe;
+    border-radius:13%;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.icone-mid-v2 i{
+    color: white;
+    font-size: 27px;
+}
+
+.icones-meio-da-pagina-v3{
+    display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+}
+
+
+.h2-mid-icon-v3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+
+.p-mid-icon-v2 {
+    margin: 3px 0 0;
+    font-size: 15px;
+    color: #0453fe;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-down-icon-v3 {
+    margin: 3px 0 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/* =========================
+   SEÇÃO DE CONTATO
+========================= */
+
+.contato-section {
+    width: 100%;
+    padding: 60px 6%;
+    background: #f5f8fc;
+    box-sizing: border-box;
+}
+
+.contato-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    gap: 22px;
+    align-items: stretch;
+}
+
+
+/* =========================
+   CARD DO FORMULÁRIO
+========================= */
+
+.form-card {
+    background: #ffffff;
+
+    border-radius: 10px;
+
+    padding: 32px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04);
+}
+
+.form-card h2 {
+    margin: 0 0 6px;
+
+    font-size: 23px;
+    font-weight: 700;
+
+    color: #101828;
+}
+
+.form-subtitulo {
+    margin: 0 0 24px;
+
+    font-size: 13px;
+    color: #667085;
+}
+
+
+/* =========================
+   GRID DOS CAMPOS
+========================= */
+
+.form-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px 14px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.campo-full {
+    margin-top: 18px;
+}
+
+.campo label {
+    font-size: 13px;
+    color: #344054;
+}
+
+.campo label span {
+    color: #ef4444;
+}
+
+
+/* =========================
+   INPUTS
+========================= */
+
+.campo input,
+.campo select,
+.campo textarea {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    border: 1px solid #dce3ec;
+
+    border-radius: 6px;
+
+    background: #ffffff;
+
+    color: #344054;
+
+    font-family: inherit;
+
+    font-size: 13px;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+.campo input,
+.campo select {
+    height: 42px;
+
+    padding: 0 12px;
+}
+
+.campo textarea {
+    min-height: 135px;
+
+    padding: 12px;
+
+    resize: vertical;
+}
+
+.campo input::placeholder,
+.campo textarea::placeholder {
+    color: #98a2b3;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: #0867e8;
+
+    box-shadow: 0 0 0 3px rgba(8, 103, 232, 0.08);
+}
+
+
+/* =========================
+   PARTE INFERIOR DO FORM
+========================= */
+
+.form-bottom {
+
+    margin-top: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+
+/* BOTÃO ENVIAR */
+
+.btn-enviar {
+
+    height: 40px;
+
+    padding: 0 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #0867e8;
+
+    color: white;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn-enviar:hover {
+    background: #0759c9;
+
+    transform: translateY(-1px);
+}
+
+.btn-enviar i {
+    font-size: 13px;
+}
+
+
+/* SEGURANÇA */
+
+.seguranca {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    color: #98a2b3;
+
+    font-size: 12px;
+}
+
+.seguranca i {
+    color: #667085;
+}
+
+
+/* =========================
+   LADO DIREITO
+========================= */
+
+.contato-lateral {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+
+/* =========================
+   CARD LOCALIZAÇÃO
+========================= */
+
+.local-card {
+
+    background: #ffffff;
+
+    border-radius: 10px;
+
+    padding: 26px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04);
+}
+
+.local-card h3 {
+    margin: 0 0 18px;
+
+    color: #101828;
+
+    font-size: 15px;
+}
+
+
+/* MAPA */
+.mapa{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+/* =========================
+   INFORMAÇÕES
+========================= */
+
+.info-local {
+    margin-top: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+.info-item {
+
+    display: flex;
+
+    gap: 13px;
+
+    align-items: flex-start;
+}
+
+.info-item > i {
+
+    width: 22px;
+
+    color: #0867e8;
+
+    font-size: 17px;
+
+    margin-top: 2px;
+}
+
+.info-item strong {
+
+    display: block;
+
+    color: #344054;
+
+    font-size: 13px;
+
+    margin-bottom: 3px;
+}
+
+.info-item p {
+
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 12px;
+
+    line-height: 1.4;
+}
+
+
+/* =========================
+   CARD REUNIÃO
+========================= */
+
+.reuniao-card {
+
+    min-height: 170px;
+
+    padding: 24px;
+
+    box-sizing: border-box;
+
+    border-radius: 10px;
+
+    background: #041428;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.reuniao-texto {
+    position: relative;
+    z-index: 2;
+}
+
+.reuniao-card h3 {
+
+    margin: 0 0 8px;
+
+    font-size: 17px;
+}
+
+.reuniao-card p {
+
+    margin: 0 0 14px;
+
+    max-width: 240px;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    color: #cbd5e1;
+}
+
+
+/* BOTÃO REUNIÃO */
+
+.btn-reuniao {
+
+    height: 40px;
+
+    padding: 0 14px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    border: 1px solid #0867e8;
+
+    border-radius: 5px;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn-reuniao:hover {
+    background: #0867e8;
+}
+
+
+/* ÍCONE GRANDE */
+
+.icone-calendario {
+
+    width: 58px;
+    height: 58px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #0753ae;
+
+    border-radius: 12px;
+
+    color: white;
+
+    font-size: 28px;
+}
+
+
+.nosso-time{
+    display: flex;
+    background-color: #041428;
+    margin: 30px auto;
+    width: 80%;
+    padding: 30px;
+    border-radius: 9px;
+    justify-content: space-between;
+}
+
+.our-p{
+    color: #0453fe;
+    margin-bottom: 10px;
+}
+
+.p-nosso-time{
+    color: rgb(234, 233, 233);
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.h2-nosso-time{
+    color: white;
+    font-size: 30px;
+}
+
+
+.right-p-time{
+    color: rgb(234, 233, 233);
+        text-align: right;
+}
+
+.time-right{
+    margin-right: 80px;
+}
+
+
+.time-left{
+    margin-left: 20px;
+}
+
+
+.img-blocos{
+    display: flex;
+    gap: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.img-blocos img{
+    width: 100px;
+}
+
+.oito{
+margin-left: -25px;
+opacity: 0.8;
+}
+
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 850px) {
+
+    .contato-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contato-lateral {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .contato-section {
+        padding: 40px 20px;
+    }
+
+    .form-card {
+        padding: 22px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contato-lateral {
+        grid-template-columns: 1fr;
+    }
+
+    .form-bottom {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .seguranca {
+        font-size: 11px;
+    }
+
+}
+
+
+
+/* =========================================================
+   TABLET
+   601px até 1024px
+========================================================= */
+
+@media (max-width: 1024px) and (min-width: 601px) {
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .first-template-v2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 30px 40px;
+    }
+
+    .left-part-1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first-h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .first-p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .iconebox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .sobre-img {
+        width: 70%;
+        max-width: 500px;
+        margin: 30px auto 0;
+    }
+
+
+    /* =========================
+       TÍTULOS
+    ========================= */
+
+    .second-p {
+        text-align: center;
+    }
+
+    .first-h2 {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .divisor-de-pagina {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* =========================
+       CARDS DE CONTATO
+    ========================= */
+
+    .icones-meio-da-pagina-v3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 40px;
+    }
+
+    .caixa-de-icones-v3 {
+        width: auto;
+        padding: 30px 20px;
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       FORMULÁRIO
+    ========================= */
+
+    .contato-container {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .form-card {
+        width: 100%;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* =========================
+       CARDS LATERAIS
+    ========================= */
+
+    .contato-lateral {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .local-card,
+    .reuniao-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       CARD REUNIÃO - TABLET
+    ========================= */
+
+    /* =========================
+   CARD REUNIÃO - TABLET
+   IGUAL AO CELULAR
+========================= */
+
+.reuniao-card {
+    width: 100%;
+    box-sizing: border-box;
+
+    min-height: 400px;
+    padding: 40px 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 30px;
+}
+
+
+/* BLOCO DO TEXTO */
+
+.reuniao-texto {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* TÍTULO */
+
+.reuniao-card h3 {
+    width: 100%;
+
+    margin: 0 0 12px;
+
+    font-size: 28px;
+
+    text-align: center;
+}
+
+
+/* TEXTO */
+
+.reuniao-card p {
+    width: 100%;
+    max-width: 450px;
+
+    margin: 0 auto 20px;
+
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: center;
+}
+
+
+/* BOTÃO */
+
+.btn-reuniao {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+
+    height: 52px;
+
+    padding: 0 25px;
+
+    margin: 0 auto;
+
+    font-size: 15px;
+}
+
+
+/* ÍCONE EMBAIXO */
+
+.icone-calendario {
+    width: 75px;
+    height: 75px;
+
+    min-width: 75px;
+    min-height: 75px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    font-size: 35px;
+
+    border-radius: 12px;
+}
+
+
+    /* =========================
+       NOSSO TIME
+    ========================= */
+
+    .nosso-time {
+        width: 85%;
+        box-sizing: border-box;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        gap: 30px;
+
+        padding: 35px 25px;
+    }
+
+    .time-left {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .time-right {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .h2-nosso-time {
+        font-size: 28px;
+    }
+
+    .p-nosso-time {
+        font-size: 17px;
+    }
+
+    .img-blocos {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+
+    .right-p-time {
+        text-align: center;
+    }
+}
+
+
+
+/* =========================================================
+   CELULAR
+   Até 600px
+========================================================= */
+
+@media (max-width: 600px) {
+
+    /* =========================
+       SEÇÃO
+    ========================= */
+
+    section {
+        margin-top: 60px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .first-template-v2 {
+        width: 100%;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        padding: 40px 20px 35px;
+    }
+
+    .left-part-1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .first-h1 {
+        width: 100%;
+        font-size: 29px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .first-p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .first-p br {
+        display: none;
+    }
+
+    .sobre-img {
+        display: none;
+    }
+
+
+    /* =========================
+       BENEFÍCIOS
+    ========================= */
+
+    .iconebox {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 25px 15px;
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    .beneficio {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    .icontext {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       TÍTULOS
+    ========================= */
+
+    .second-p {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .first-h2 {
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 0 20px;
+
+        font-size: 24px;
+        line-height: 1.3;
+
+        text-align: center;
+    }
+
+    .divisor-de-pagina {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* =========================
+       CARDS DE CONTATO
+    ========================= */
+
+    .icones-meio-da-pagina-v3 {
+        width: 100%;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 15px;
+
+        padding: 0 20px;
+    }
+
+    .caixa-de-icones-v3 {
+        width: 100%;
+        max-width: 400px;
+
+        box-sizing: border-box;
+
+        padding: 30px 20px;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .h2-mid-icon-v3 {
+        text-align: center;
+    }
+
+    .p-down-icon-v3 {
+        text-align: center;
+    }
+
+    .p-mid-icon-v2 {
+        text-align: center;
+        word-break: break-word;
+    }
+
+
+    /* =========================
+       FORMULÁRIO
+    ========================= */
+
+    .contato-container {
+        width: 100%;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 0 20px;
+
+        margin: 0 auto;
+    }
+
+    .form-card {
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 22px;
+    }
+
+    .form-card h2 {
+        font-size: 22px;
+    }
+
+    .form-subtitulo {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .form-grid {
+        display: flex;
+        flex-direction: column;
+
+        gap: 18px;
+    }
+
+    .campo-full {
+        margin-top: 18px;
+    }
+
+
+    /* =========================
+       PARTE INFERIOR DO FORM
+    ========================= */
+
+    .form-bottom {
+        display: flex;
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 15px;
+    }
+
+    .btn-enviar {
+        width: 100%;
+    }
+
+    .seguranca {
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+    }
+
+
+    /* =========================
+       LADO DIREITO
+    ========================= */
+
+    .contato-lateral {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+
+    /* =========================
+       CARD LOCALIZAÇÃO
+    ========================= */
+
+    .local-card {
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 22px;
+    }
+
+    .local-card h3 {
+        font-size: 18px;
+    }
+
+    .mapa {
+        width: 100%;
+        height: auto;
+    }
+
+    .info-local {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .info-item {
+        gap: 10px;
+    }
+
+    .info-item strong {
+        font-size: 17px !important;
+    }
+
+    .info-item p {
+        font-size: 13px !important;
+    }
+
+
+    /* =====================================================
+       CARD "PREFERE UMA REUNIÃO?"
+       
+       ORDEM:
+       TEXTO
+       ↓
+       BOTÃO
+       ↓
+       ÍCONE
+    ===================================================== */
+
+    .reuniao-card {
+        width: 100%;
+        box-sizing: border-box;
+
+        min-height: 400px;
+
+        padding: 40px 20px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        gap: 30px;
+    }
+
+    .reuniao-texto {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .reuniao-card h3 {
+        width: 100%;
+
+        margin: 0 0 12px;
+
+        font-size: 27px;
+
+        text-align: center;
+    }
+
+    .reuniao-card p {
+        width: 100%;
+        max-width: 400px;
+
+        margin: 0 auto 20px;
+
+        font-size: 16px;
+        line-height: 1.6;
+
+        text-align: center;
+    }
+
+    .btn-reuniao {
+        display: inline-flex;
+
+        align-items: center;
+        justify-content: center;
+
+        width: auto;
+
+        height: 50px;
+
+        padding: 0 25px;
+
+        margin: 0 auto;
+
+        font-size: 15px;
+    }
+
+    .icone-calendario {
+        width: 75px;
+        height: 75px;
+
+        flex-shrink: 0;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto;
+
+        font-size: 35px;
+
+        border-radius: 12px;
+    }
+
+
+    /* =========================
+       NOSSO TIME
+    ========================= */
+
+    .nosso-time {
+        width: calc(100% - 40px);
+
+        box-sizing: border-box;
+
+        margin: 30px auto;
+
+        padding: 30px 20px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        gap: 30px;
+    }
+
+    .time-left {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .our-p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .h2-nosso-time {
+        font-size: 25px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .p-nosso-time {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .time-right {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    /* =========================
+       IMAGENS DO TIME
+    ========================= */
+
+    .img-blocos {
+        width: 100%;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 5px;
+
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .img-blocos img {
+        width: 65px;
+        height: auto;
+    }
+
+    .oito {
+        margin-left: -15px;
+        opacity: 0.8;
+    }
+
+    .right-p-time {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
