@@ -67,7 +67,7 @@ fetch("formulario.html")
                 const mensagemDoCliente = document.getElementById("mensagem").value;
 
                 // ENVIANDO PARA O NODE
-                fetch("http://localhost:3000/enviar-email", {
+                fetch("/enviar-email", {
 
                     method: "POST",
 

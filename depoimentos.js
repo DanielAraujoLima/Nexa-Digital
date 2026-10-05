@@ -11,7 +11,7 @@ const formularioV2 = document.getElementById("newsletter-form");
                 const email = document.getElementById("emailV2").value;
 
                 // ENVIANDO PARA O NODE
-                fetch("http://localhost:3000/enviar-email", {
+                fetch("/enviar-email", {
 
                     method: "POST",
 

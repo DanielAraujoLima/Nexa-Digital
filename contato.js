@@ -16,7 +16,7 @@ const formularioV2 = document.getElementById("form-card");
                 const mensagem = document.getElementById("mensagem").value;
 
                 // ENVIANDO PARA O NODE
-                fetch("http://localhost:3000/enviar-email", {
+                fetch("/enviar-email", {
 
                     method: "POST",
 
