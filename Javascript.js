@@ -67,7 +67,7 @@ fetch("formulario.html")
                 const mensagemDoCliente = document.getElementById("mensagem").value;
 
                 // ENVIANDO PARA O NODE
-                fetch("https://nexa-digital-wz98.onrender.com//enviar-email", {
+                fetch("https://nexa-digital-wz98.onrender.com/enviar-email", {
 
                     method: "POST",
 
@@ -188,7 +188,7 @@ const formularioV2 = document.getElementById("footer-form");
                 const email = document.getElementById("emailV2").value;
 
                 // ENVIANDO PARA O NODE
-                fetch("http://localhost:3000/enviar-email", {
+                fetch("https://nexa-digital-wz98.onrender.com/enviar-email", {
 
                     method: "POST",
 

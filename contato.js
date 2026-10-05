@@ -16,7 +16,7 @@ const formularioV2 = document.getElementById("form-card");
                 const mensagem = document.getElementById("mensagem").value;
 
                 // ENVIANDO PARA O NODE
-                fetch("https://nexa-digital-wz98.onrender.com//enviar-email", {
+                fetch("https://nexa-digital-wz98.onrender.com/enviar-email", {
 
                     method: "POST",
 
